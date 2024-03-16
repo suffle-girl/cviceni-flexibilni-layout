@@ -27,7 +27,8 @@ p {
 }
 
 /*
-Nastylujte header tak, aby byl nadpis a podnadpis vedle sebe, na opačných koncích stránky. Text podnadpisu zarovnejte doprava
+Nastylujte header tak, aby byl nadpis a podnadpis vedle sebe, 
+na opačných koncích stránky. Text podnadpisu zarovnejte doprava
 
 Nastylujte galerii tak, aby byly vedle sebe dva sloupce obrázků. 
 Potom zkuste třeba tři nebo čtyři sloupce. 
@@ -35,4 +36,17 @@ Potom zkuste třeba tři nebo čtyři sloupce.
 Pro každou variantu si pomocí devtools udělejte screenshot.
 */
 
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foto {
+  width: 33%;
+}
 
